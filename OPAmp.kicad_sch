@@ -1963,126 +1963,6 @@
 				)
 			)
 		)
-		(symbol "power:VCC"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VCC"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VCC\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VCC_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 137.16 86.36)
@@ -2101,6 +1981,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18f968b4-9b2c-4c49-8524-1a880131995f")
+	)
+	(junction
+		(at 207.01 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "277f3f5b-101e-4fd1-a107-217394de1a94")
 	)
 	(junction
 		(at 149.86 111.76)
@@ -2320,6 +2206,26 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 36.83) (xy 222.25 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "392fc6e4-f182-4d19-8ced-04c0156dd2ff")
+	)
+	(wire
+		(pts
+			(xy 222.25 111.76) (xy 207.01 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c398b37-767e-401e-8093-08427f3760c1")
+	)
+	(wire
+		(pts
 			(xy 106.68 58.42) (xy 121.92 58.42)
 		)
 		(stroke
@@ -2360,7 +2266,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 34.29) (xy 205.74 34.29)
+			(xy 200.66 34.29) (xy 222.25 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2677,16 +2583,6 @@
 			(type default)
 		)
 		(uuid "f69e7526-9cbf-4410-ac29-4f089ab7f7fd")
-	)
-	(wire
-		(pts
-			(xy 205.74 34.29) (xy 205.74 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb5320aa-710b-4f7b-bf62-87fe870aa5f9")
 	)
 	(wire
 		(pts
@@ -3541,17 +3437,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 205.74 44.45 180)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 227.33 36.83 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9f31b7c-f13f-4c3a-b211-55c2be4dfcf9")
-		(property "Reference" "#PWR01"
-			(at 205.74 40.64 0)
+		(uuid "8678e6b7-0d43-4512-a623-35963148e597")
+		(property "Reference" "Vs2"
+			(at 227.33 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 227.33 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type055_RT01502HDWU_1x02_P5.00mm_Horizontal"
+			(at 227.33 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3559,16 +3471,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 205.74 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 44.45 0)
+		(property "Datasheet" "~"
+			(at 227.33 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3576,8 +3480,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 205.74 44.45 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 227.33 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3585,22 +3489,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 205.74 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "2378498b-47fd-4239-942f-90706927cc54")
 		)
 		(pin "1"
-			(uuid "b180f64a-bc52-4a63-9d84-497809d9075a")
+			(uuid "e1ff9553-7ce8-479c-92ae-e022181b55b5")
 		)
 		(instances
-			(project ""
+			(project "OPAmp"
 				(path "/dbf59a55-93ae-4fc0-b939-94361e92aa7e"
-					(reference "#PWR01")
+					(reference "Vs2")
 					(unit 1)
 				)
 			)
