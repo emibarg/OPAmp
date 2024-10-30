@@ -1983,6 +1983,18 @@
 		(uuid "18f968b4-9b2c-4c49-8524-1a880131995f")
 	)
 	(junction
+		(at 222.25 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b9c3020-33a2-4869-9791-bd5473151953")
+	)
+	(junction
+		(at 214.63 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "248870e8-c16b-4b0a-a2b6-dd5aa0500fc8")
+	)
+	(junction
 		(at 207.01 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1995,6 +2007,12 @@
 		(uuid "2ceb2c23-4856-4807-af8c-7b83282b6325")
 	)
 	(junction
+		(at 137.16 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3433f883-2444-4550-a5ba-855458be9e79")
+	)
+	(junction
 		(at 125.73 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2005,6 +2023,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70b9ee81-729e-430e-a9d1-a9bd81c55ab0")
+	)
+	(junction
+		(at 149.86 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "717d5bf8-987d-4b52-ab40-604cfb0a5d3a")
 	)
 	(junction
 		(at 137.16 104.14)
@@ -2055,6 +2079,12 @@
 		(uuid "df6d2af4-1438-42c9-a30e-54b790738500")
 	)
 	(junction
+		(at 149.86 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e075c942-f815-4091-8473-8684502cc3f7")
+	)
+	(junction
 		(at 137.16 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2077,6 +2107,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8b73789-09ed-48e0-b80a-130d507bb0e9")
+	)
+	(junction
+		(at 128.27 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdf68a28-8fc0-4f6e-84f9-4276fb501449")
 	)
 	(junction
 		(at 170.18 111.76)
@@ -2116,6 +2152,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 39.37) (xy 222.25 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b2243d8-c30d-490c-8ddc-749e148a9796")
+	)
+	(wire
+		(pts
 			(xy 137.16 111.76) (xy 149.86 111.76)
 		)
 		(stroke
@@ -2123,6 +2169,16 @@
 			(type default)
 		)
 		(uuid "0b82e681-278b-407c-8843-de2053b67748")
+	)
+	(wire
+		(pts
+			(xy 149.86 88.9) (xy 153.67 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19222698-ea3c-4502-b7e0-e5b5fdd44974")
 	)
 	(wire
 		(pts
@@ -2206,7 +2262,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 36.83) (xy 222.25 111.76)
+			(xy 222.25 36.83) (xy 222.25 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2236,6 +2292,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 81.28) (xy 149.86 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e194937-c7ff-4d6c-a8da-caf60c5e30d6")
+	)
+	(wire
+		(pts
 			(xy 137.16 34.29) (xy 170.18 34.29)
 		)
 		(stroke
@@ -2256,7 +2322,17 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 68.58) (xy 137.16 68.58)
+			(xy 128.27 102.87) (xy 137.16 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4059da65-ca20-4de5-9a26-d4188f7099df")
+	)
+	(wire
+		(pts
+			(xy 152.4 68.58) (xy 149.86 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2266,7 +2342,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 34.29) (xy 222.25 34.29)
+			(xy 200.66 34.29) (xy 214.63 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2283,6 +2359,16 @@
 			(type default)
 		)
 		(uuid "46f06e61-0972-456d-89ff-52c0b8614535")
+	)
+	(wire
+		(pts
+			(xy 128.27 93.98) (xy 128.27 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b7c13c1-2f0c-47e2-a153-1002e819ac6c")
 	)
 	(wire
 		(pts
@@ -2306,13 +2392,23 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 93.98) (xy 129.54 93.98)
+			(xy 106.68 93.98) (xy 128.27 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5905e840-b644-41ac-95ee-929245baa1d0")
+	)
+	(wire
+		(pts
+			(xy 137.16 102.87) (xy 137.16 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a52ded5-1f53-4f9f-a61e-07c08ab30699")
 	)
 	(wire
 		(pts
@@ -2346,7 +2442,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 88.9) (xy 153.67 88.9)
+			(xy 137.16 88.9) (xy 149.86 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2376,7 +2472,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 76.2) (xy 207.01 76.2)
+			(xy 201.93 76.2) (xy 207.01 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2456,6 +2552,36 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 85.09) (xy 72.39 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8b3d2c9-dea0-46ab-b0e4-4e4cf30a510d")
+	)
+	(wire
+		(pts
+			(xy 149.86 68.58) (xy 137.16 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b97ddd32-c385-462b-864c-fe7d5409e07b")
+	)
+	(wire
+		(pts
+			(xy 214.63 34.29) (xy 222.25 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc77f13f-1337-4502-b24f-a8a2aba5e153")
+	)
+	(wire
+		(pts
 			(xy 153.67 90.17) (xy 162.56 90.17)
 		)
 		(stroke
@@ -2516,6 +2642,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 93.98) (xy 129.54 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdb2b8a7-a39e-4dfd-8fed-2224f6f539fb")
+	)
+	(wire
+		(pts
 			(xy 170.18 76.2) (xy 170.18 77.47)
 		)
 		(stroke
@@ -2526,7 +2662,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 99.06) (xy 137.16 104.14)
+			(xy 137.16 99.06) (xy 137.16 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2576,7 +2712,17 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 85.09) (xy 93.98 85.09)
+			(xy 194.31 76.2) (xy 187.96 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7a926eb-bf8b-4eff-bd01-3a9e13e4f580")
+	)
+	(wire
+		(pts
+			(xy 83.82 85.09) (xy 93.98 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2593,6 +2739,96 @@
 			(type default)
 		)
 		(uuid "fbad363b-eae9-4026-b067-8b1c36fd7aae")
+	)
+	(wire
+		(pts
+			(xy 149.86 73.66) (xy 149.86 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbb0ff81-49ec-44e6-89b3-cfaaa71c6603")
+	)
+	(wire
+		(pts
+			(xy 214.63 34.29) (xy 214.63 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdac32c0-da49-4199-8228-7834b7de37c7")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 128.27 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05de2cae-661b-42c2-8e38-52da7a37f2ea")
+		(property "Reference" "C7"
+			(at 132.08 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10pF"
+			(at 132.08 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Radial_D8.0mm_H7.0mm_P3.50mm"
+			(at 129.2352 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 128.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d295221a-9c77-48ac-9910-b6f6b9efb9d3")
+		)
+		(pin "1"
+			(uuid "5d6c3bc4-6eed-488a-b492-369133aecad8")
+		)
+		(instances
+			(project "OPAmp"
+				(path "/dbf59a55-93ae-4fc0-b939-94361e92aa7e"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
@@ -2804,7 +3040,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 76.2 85.09 270)
+		(at 80.01 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2813,15 +3049,15 @@
 		(fields_autoplaced yes)
 		(uuid "29c370db-0041-40d3-ad16-474804db60bd")
 		(property "Reference" "C3"
-			(at 76.2 77.47 90)
+			(at 80.01 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100uF"
-			(at 76.2 80.01 90)
+		(property "Value" "1uF"
+			(at 80.01 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2829,7 +3065,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P7.50mm"
-			(at 72.39 86.0552 0)
+			(at 76.2 86.0552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2838,7 +3074,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 85.09 0)
+			(at 80.01 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2847,7 +3083,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 76.2 85.09 0)
+			(at 80.01 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2898,7 +3134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm"
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P30.48mm"
 			(at 168.402 81.28 90)
 			(effects
 				(font
@@ -3212,6 +3448,74 @@
 			(project "OPAmp"
 				(path "/dbf59a55-93ae-4fc0-b939-94361e92aa7e"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 218.44 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6828f689-636c-41d2-b561-4c303abfc211")
+		(property "Reference" "C5"
+			(at 217.551 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4700uF"
+			(at 217.551 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm"
+			(at 222.25 38.4048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 218.44 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "815245af-daa7-4b04-a19b-07806a1af29d")
+		)
+		(pin "1"
+			(uuid "d0615555-e139-4f29-9277-a04dce51dfec")
+		)
+		(instances
+			(project "OPAmp"
+				(path "/dbf59a55-93ae-4fc0-b939-94361e92aa7e"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -3870,7 +4174,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm"
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P30.48mm"
 			(at 168.402 71.12 90)
 			(effects
 				(font
@@ -4059,17 +4363,87 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:TIP125")
-		(at 167.64 90.17 0)
+		(lib_id "Device:C")
+		(at 149.86 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "dee231a3-ed4c-402b-991e-22d8ead76af6")
+		(property "Reference" "C6"
+			(at 153.67 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10pF"
+			(at 153.67 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Radial_D8.0mm_H7.0mm_P3.50mm"
+			(at 150.8252 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 149.86 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6bcd28b7-7731-4a21-83a4-cd8c4cdd752c")
+		)
+		(pin "1"
+			(uuid "6f063a2c-379f-4587-84f9-88864e472e3b")
+		)
+		(instances
+			(project ""
+				(path "/dbf59a55-93ae-4fc0-b939-94361e92aa7e"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:TIP125")
+		(at 167.64 90.17 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "e024a5a0-3669-460d-9d99-b0513a6bd94a")
 		(property "Reference" "Q2"
-			(at 173.99 88.8999 0)
+			(at 173.99 91.4401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4078,7 +4452,7 @@
 			)
 		)
 		(property "Value" "TIP125"
-			(at 173.99 91.4399 0)
+			(at 173.99 88.9001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4087,7 +4461,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 172.72 92.075 0)
+			(at 172.72 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4206,7 +4580,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 191.77 76.2 90)
+		(at 198.12 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4215,7 +4589,7 @@
 		(fields_autoplaced yes)
 		(uuid "f838b9dc-9157-4784-9461-bb211c5aac8f")
 		(property "Reference" "C1"
-			(at 190.881 68.58 90)
+			(at 197.231 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4223,7 +4597,7 @@
 			)
 		)
 		(property "Value" "4700uF"
-			(at 190.881 71.12 90)
+			(at 197.231 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4231,7 +4605,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm"
-			(at 195.58 75.2348 0)
+			(at 201.93 75.2348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4240,7 +4614,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 76.2 0)
+			(at 198.12 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4249,7 +4623,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 191.77 76.2 0)
+			(at 198.12 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
